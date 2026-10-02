@@ -1,0 +1,19 @@
+# Python / runtime artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Sample & rollout media — do NOT commit video/image files.
+# Fetch a sample clip by following README.md instead.
+*.mp4
+*.mov
+*.avi
+*.webm
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Robot rollout clips written at runtime by verifier.py's execute_plan()
+rollout_clips/
